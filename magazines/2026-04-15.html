@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-15</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      display: inline-block;
+      font-size: clamp(24px, 2.4vw, 34px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-15 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">honeypot.net • 609 pts • 238 comments</div>
+  <h2>I wrote to Flock&#39;s privacy contact to opt out of their domestic spying program</h2>
+  <div class="meta">by speckx <span class="applies">Directly applies to you</span></div>
+  <a class="link" href="https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">stopflock.com • 645 pts • 165 comments</div>
+  <h2>Stop Flock</h2>
+  <div class="meta">by cdrnsf </div>
+  <a class="link" href="https://stopflock.com" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">techcrunch.com • 640 pts • 183 comments</div>
+  <h2>Rare concert recordings are landing on the Internet Archive</h2>
+  <div class="meta">by jrm-veris </div>
+  <a class="link" href="https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">news.ycombinator.com • 633 pts • 159 comments</div>
+  <h2>Tell HN: Fiverr left customer files public and searchable</h2>
+  <div class="meta">by morpheuskafka </div>
+  <a class="link" href="https://news.ycombinator.com/item?id=47769796" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">code.claude.com • 600 pts • 350 comments</div>
+  <h2>Claude Code Routines</h2>
+  <div class="meta">by matthieu_bl </div>
+  <a class="link" href="https://code.claude.com/docs/en/routines" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">eff.org • 389 pts • 361 comments</div>
+  <h2>The dangers of California&#39;s legislation to censor 3D printing</h2>
+  <div class="meta">by salkahfi </div>
+  <a class="link" href="https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">taoofmac.com • 187 pts • 146 comments</div>
+  <h2>The Orange Pi 6 Plus</h2>
+  <div class="meta">by rcarmo </div>
+  <a class="link" href="https://taoofmac.com/space/reviews/2026/04/11/1900" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">blog.google • 158 pts • 79 comments</div>
+  <h2>Turn your best AI prompts into one-click tools in Chrome</h2>
+  <div class="meta">by xnx </div>
+  <a class="link" href="https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">mceglowski.substack.com • 179 pts • 50 comments</div>
+  <h2>Let&#39;s talk space toilets</h2>
+  <div class="meta">by zdw </div>
+  <a class="link" href="https://mceglowski.substack.com/p/lets-talk-space-toilets" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">kb.databasedesignbook.com • 162 pts • 59 comments</div>
+  <h2>5NF and Database Design</h2>
+  <div class="meta">by petalmind </div>
+  <a class="link" href="https://kb.databasedesignbook.com/posts/5nf/" target="_blank" rel="noopener noreferrer">Open story →</a>
+</section>
+</body>
+</html>
