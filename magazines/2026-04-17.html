@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-17</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-17 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">anthropic.com</div>
+  <h2>Claude Opus 4.7</h2>
+  <div class="meta">by meetpateltech </div>
+  <p class="summary">Claude Opus 4.7. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.anthropic.com/news/claude-opus-4-7" target="_blank" rel="noopener noreferrer">anthropic.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">qwen.ai</div>
+  <h2>Qwen3.6-35B-A3B: Agentic coding power, now open to all</h2>
+  <div class="meta">by cmitsakis </div>
+  <p class="summary">Qwen3.6-35B-A3B: Agentic coding power, now open to all. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://qwen.ai/blog?id=qwen3.6-35b-a3b" target="_blank" rel="noopener noreferrer">qwen.ai</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">openai.com</div>
+  <h2>Codex for almost everything</h2>
+  <div class="meta">by mikeevans </div>
+  <p class="summary">Codex for almost everything. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://openai.com/index/codex-for-almost-everything/" target="_blank" rel="noopener noreferrer">openai.com</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">aphyr.com</div>
+  <h2>The future of everything is lies, I guess: Where do we go from here?</h2>
+  <div class="meta">by aphyr </div>
+  <p class="summary">The future of everything is lies, I guess: Where do we go from here? It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here" target="_blank" rel="noopener noreferrer">aphyr.com</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">simonwillison.net</div>
+  <h2>Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7</h2>
+  <div class="meta">by simonw </div>
+  <p class="summary">For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning’s two big model releases— Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here’s the Qwen 3.6 pelican, generated using this 20.9GB Qwen3.6-35B-A3B-UD-Q4_K_S.gguf quantized model by Unsloth, running on my MacBook Pro M5 via LM Studio (and the llm-lmstudio plugin)— transcript here : And here’s one I got from Anthropic’s brand new Claude Opus 4.7 ( transcript ): I’m giving this one to Qwen 3.6. Opus managed to mess up the bicycle frame! I tried Opus a second time passing thinking_level: max . It didn’t do much better ( transcript ): A lot of people are convinced that the labs train for my stupid benchmark .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://simonwillison.net/2026/Apr/16/qwen-beats-opus/" target="_blank" rel="noopener noreferrer">simonwillison.net</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">blog.cloudflare.com</div>
+  <h2>Cloudflare&#39;s AI Platform: an inference layer designed for agents</h2>
+  <div class="meta">by nikitoci </div>
+  <p class="summary">AI models are changing quickly: the best model to use for agentic coding today might in three months be a completely different model from a different provider. On top of this, real-world use cases often require calling more than one model. Your customer support agent might use a fast, cheap model to classify a user&#39;s message; a large, reasoning model to plan its actions; and a lightweight model to execute individual tasks. This means you need access to all the models, without tying yourself financially and operationally to a single provider. You also need the right systems in place to monitor costs across providers, ensure reliability when one of them has an outage, and manage latency no matter where your users are.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://blog.cloudflare.com/ai-platform/" target="_blank" rel="noopener noreferrer">blog.cloudflare.com</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">techcrunch.com</div>
+  <h2>Everything we like is a psyop?</h2>
+  <div class="meta">by evo_9 </div>
+  <p class="summary">The first StrictlyVC of 2026 hits SF on April 30. Save up to $680 on your Disrupt 2026 pass. Last year, I was telegraphed a subliminal mandate from the indie rock powers that be: I was supposed to like Geese. The young Brooklynites make good music, but are they the saviors of rock and roll, the defining rock band of Gen Z, the second coming of The Strokes? The buzz around the band would suggest so .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop/" target="_blank" rel="noopener noreferrer">techcrunch.com</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">blog.calif.io</div>
+  <h2>Codex Hacked a Samsung TV</h2>
+  <div class="meta">by campuscodi </div>
+  <p class="summary">This post documents our research into using AI to hack hardware devices. We&#39;d like to acknowledge OpenAI for partnering with us on this project. No TVs were seriously harmed during this research. One may have experienced mild distress from being repeatedly rebooted remotely by an AI. We started with a shell inside the browser application on a Samsung TV, and a fairly simple question: if we gave Codex a reliable way to work against the live device and the matching firmware source, could it take that foothold all the way to root?</p>
+  <p class="readmore">Read full story: <a class="link" href="https://blog.calif.io/p/codex-hacked-a-samsung-tv" target="_blank" rel="noopener noreferrer">blog.calif.io</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">android-developers.googleblog.com</div>
+  <h2>Android CLI: Build Android apps 3x faster using any agent</h2>
+  <div class="meta">by ingve </div>
+  <p class="summary">As Android developers, you have many choices when it comes to the agents, tools, and LLMs you use for app development. Whether you are using Gemini in Android Studio, Gemini CLI, Antigravity, or third-party agents like Claude Code or Codex, our mission is to ensure that high-quality Android development is possible everywhere. Today, we are introducing a new suite of Android tools and resources for agentic workflows — Android CLI with Android skills and the Android Knowledge Base . This collection of tools is designed to eliminate the guesswork of core Android development workflows when you direct an agent’s work outside of Android Studio, making your agents more efficient, effective, and capable of following the latest recommended patterns and best practices. Whether you are just starting your development journey on Android, are a seasoned Android developer, or managing apps across mobile and web platforms, building your apps with the latest guidance, tools, and AI-assistance is easier than ever.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html" target="_blank" rel="noopener noreferrer">android-developers.googleblog.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">theguardian.com</div>
+  <h2>New unsealed records reveal Amazon&#39;s price-fixing tactics, California AG claims</h2>
+  <div class="meta">by kmfrk </div>
+  <p class="summary">Exclusive: A trove of previously redacted documents was filed as part of the tech giant’s anti-trust battle with the state of California. Amazon denies it engages in price-fixing Hundreds of previously redacted records reveal how Amazon has put pressure on independent sellers using its platform into raising their prices on the sites of competitors such as Walmart and Target, so that Amazon can appear to have lower prices, California authorities allege. The global conglomerate became concerned even if a competitor was selling an item for as little as a penny less, according to one segment of the newly unredacted evidence. The documents – which have never previously been reported on – include internal emails, deposition testimony and confidential corporate presentations that the California attorney general, Rob Bonta, obtained as part of a civil case his office launched in 2022 accusing Amazon of large-scale price-fixing. The Guardian obtained and reviewed the cache of evidence, which has been filed in San Francisco county superior court but has not yet become publicly available.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.theguardian.com/us-news/ng-interactive/2026/apr/16/amazon-price-fixing-california-lawsuit" target="_blank" rel="noopener noreferrer">theguardian.com</a></p>
+</section>
+</body>
+</html>
