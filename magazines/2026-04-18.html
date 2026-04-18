@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-18</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-18 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">anthropic.com</div>
+  <h2>Claude Design</h2>
+  <div class="meta">by meetpateltech </div>
+  <p class="summary">Related: https:&amp;#x2F;&amp;#x2F;x.com&amp;#x2F;flomerboy&amp;#x2F;status&amp;#x2F;2045162321589252458 ( https:&amp;#x2F;&amp;#x2F;xcancel.com&amp;#x2F;flomerboy&amp;#x2F;status&amp;#x2F;2045162321589252458 ). It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.anthropic.com/news/claude-design-anthropic-labs" target="_blank" rel="noopener noreferrer">anthropic.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">hex.ooo</div>
+  <h2>Isaac Asimov: The Last Question (1956)</h2>
+  <div class="meta">by ColinWright </div>
+  <p class="summary">The last question was asked for the first time, half in jest, on May 21, 2061, at a time when humanity first stepped into the light. The question came about as a result of a five dollar bet over highballs, and it happened this way: Alexander Adell and Bertram Lupov were two of the faithful attendants of Multivac. As well as any human beings could, they knew what lay behind the cold, clicking, flashing face &amp;mdash; miles and miles of face &amp;mdash; of that giant computer. They had at least a vague notion of the general plan of relays and circuits that had long since grown past the point where any single human could possibly have a firm grasp of the whole. Multivac was self-adjusting and self-correcting.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://hex.ooo/library/last_question.html" target="_blank" rel="noopener noreferrer">hex.ooo</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">claudecodecamp.com</div>
+  <h2>Measuring Claude 4.7&#39;s tokenizer costs</h2>
+  <div class="meta">by aray07 </div>
+  <p class="summary">The docs said 1.0–1.35x more tokens. Anthropic&#39;s Claude Opus 4.7 migration guide says the new tokenizer uses &quot;roughly 1.0 to 1.35x as many tokens&quot; as 4.6. The top of Anthropic&#39;s range is where most Claude Code content actually sits, not the middle. Your Max window burns through faster. Your cached prefix costs more per turn.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you" target="_blank" rel="noopener noreferrer">claudecodecamp.com</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">github.com</div>
+  <h2>Show HN: Smol machines – subsecond coldstart, portable virtual machines</h2>
+  <div class="meta">by binsquare <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . Sandbox untrusted code — run untrusted programs in a hardware-isolated VM. Host filesystem, network, and credentials are separated by a hypervisor boundary. Pack into portable executables — turn any workload into a self-contained binary.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/smol-machines/smolvm" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">esa.int</div>
+  <h2>All 12 moonwalkers had &quot;lunar hay fever&quot; from dust smelling like gunpowder (2018)</h2>
+  <div class="meta">by cybermango </div>
+  <p class="summary">When the Apollo astronauts returned from the Moon, the dust that clung to their spacesuits made their throats sore and their eyes water. Lunar dust is made of sharp, abrasive and nasty particles, but how toxic is it for humans? The “lunar hay fever”, as NASA astronaut Harrison Schmitt described it during the Apollo 17 mission created symptoms in all 12 people who have stepped on the Moon. From sneezing to nasal congestion, in some cases it took days for the reactions to fade. Inside the spacecraft, the dust smelt like burnt gunpowder.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon" target="_blank" rel="noopener noreferrer">esa.int</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">nasaforce.gov</div>
+  <h2>NASA Force</h2>
+  <div class="meta">by LorenDB </div>
+  <p class="summary">An official website of the United States government technologists inside the systems that power American spaceflight, aeronautics, and scientific discovery. You work on real missions, alongside the teams building them, and your contributions move from concept to operation. For a few days, access is granted to this work. NASA Force is a new hiring initiative—developed in partnership with the U.S. Office of Personnel Management—designed to bring exceptional technical talent into mission-critical roles that support NASA’s exploration, research, and advanced technology priorities.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://nasaforce.gov/" target="_blank" rel="noopener noreferrer">nasaforce.gov</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">github.com</div>
+  <h2>Show HN: PanicLock – Close your MacBook lid disable TouchID –&gt; password unlock</h2>
+  <div class="meta">by seanieb <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . PanicLock is macOS menu bar utility that instantly disables Touch ID and locks the screen with a single click or closing your laptop lid. PanicLock fills a gap macOS leaves open: there is no built-in way to instantly disable Touch ID when it matters. Biometrics are convenient day-to-day, and sometimes preferable when you need speed or want to avoid your password being observed.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/paniclock/paniclock/" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">thehistoryblog.com</div>
+  <h2>Middle schooler finds coin from Troy in Berlin</h2>
+  <div class="meta">by speckx </div>
+  <p class="summary">Middle schooler finds coin from Troy in Berlin. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.thehistoryblog.com/archives/75848" target="_blank" rel="noopener noreferrer">thehistoryblog.com</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">tobyord.com</div>
+  <h2>Are the costs of AI agents also rising exponentially? (2025)</h2>
+  <div class="meta">by louiereederson </div>
+  <p class="summary">An Oxford philosopher working on big picture questions facing humanity this century. An Oxford philosopher working on big picture questions facing humanity this century. You can edit the text in this area, and change where the contact form on the right submits to, by entering edit mode using the modes on the bottom right.&amp;nbsp; You can set your address, phone number, email and site description in the settings tab. Link to read me page with more information. There is an extremely important question about the near-future of AI that almost no-one is asking.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.tobyord.com/writing/hourly-costs-for-ai-agents" target="_blank" rel="noopener noreferrer">tobyord.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">miguelconner.substack.com</div>
+  <h2>Spending 3 months coding by hand</h2>
+  <div class="meta">by evakhoury </div>
+  <p class="summary">I decided to move to Brooklyn for a coding retreat. There were some personal reasons that brought me back to the US. But rather than heading immediately back to work, I wanted to take some time to focus on coding things mostly without AI — at precisely the time when many successful programmers are saying programming is a solved problem. Given that I’m now six weeks through this retreat, I’ll also take some time to explain what I’ve been doing in that time. Subscribe for free to receive new posts and support my work.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://miguelconner.substack.com/p/im-coding-by-hand" target="_blank" rel="noopener noreferrer">miguelconner.substack.com</a></p>
+</section>
+</body>
+</html>
