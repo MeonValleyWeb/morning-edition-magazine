@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-19</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-19 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">isayeter.com</div>
+  <h2>Migrating from DigitalOcean to Hetzner</h2>
+  <div class="meta">by yusufusta </div>
+  <p class="summary">A real-world production migration from DigitalOcean to Hetzner dedicated, handling 248 GB of MySQL data across 30 databases, 34 Nginx sites, GitLab EE, Neo4j, and live mobile app traffic — with zero downtime. Running a software company in Turkey has become increasingly expensive over the last few years. Skyrocketing inflation and a dramatically weakening Turkish Lira against the US dollar have turned dollar-denominated infrastructure costs into a serious burden. A bill that felt manageable two years ago now hits very differently when the exchange rate has multiplied several times over. Every month, we were paying $1,432 to DigitalOcean for a droplet with 192GB RAM, 32 vCPUs, 600GB SSD, two block volumes (1TB each), and backups enabled.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://isayeter.com/posts/digitalocean-to-hetzner-migration/" target="_blank" rel="noopener noreferrer">isayeter.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">tokens.billchambers.me</div>
+  <h2>Anonymous request-token comparisons from Opus 4.6 and Opus 4.7</h2>
+  <div class="meta">by anabranch </div>
+  <p class="summary">Anonymous request-token comparisons from the community, showing how Opus 4.6 and Opus 4.7 differ on real inputs. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://tokens.billchambers.me/leaderboard" target="_blank" rel="noopener noreferrer">tokens.billchambers.me</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">worksinprogress.co</div>
+  <h2>Why Japan has such good railways</h2>
+  <div class="meta">by RickJWagner </div>
+  <p class="summary">28 percent of passenger kilometers in Japan are travelled by rail, more than anywhere else in the developed world. France achieves 10 percent, Germany 6.4 percent, and the United States just 0.25 percent. Travel in Japan is over a hundred times more likely to be by rail than travel in the United States. Japan’s vast railway network is divided between dozens of companies, nearly all of them private. The largest of these, JR East, carries more passengers than the entire railway system of every country other than China and India.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://worksinprogress.co/issue/why-japan-has-such-good-railways/" target="_blank" rel="noopener noreferrer">worksinprogress.co</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">kdenlive.org</div>
+  <h2>State of Kdenlive</h2>
+  <div class="meta">by f_r_d </div>
+  <p class="summary">Saturday, 18 April 2026 &amp;emsp;|&amp;emsp; Farid Abdelnour In 2025, the Kdenlive team continued grinding to push the project forward through steady development, collaboration, and community support. Over the past year we’ve found a nice balance between adding new features, bug fixing, polishing the user interface, and improving performance and workflow, with stability taking priority over feature creep. We relaunched the website with a new content management system, refreshed some content and the design, and restored historic content dating back to 2002. We also strengthened upstream collaboration with the MLT developers and contributed several improvements to OpenTimelineIO. Here’s a look at what we&#39;ve been up to and what is ahead.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://kdenlive.org/news/2026/state-2026/" target="_blank" rel="noopener noreferrer">kdenlive.org</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">righto.com</div>
+  <h2>The electromechanical angle computer inside the B-52 bomber&#39;s star tracker</h2>
+  <div class="meta">by NelsonMinar </div>
+  <p class="summary">Computer history, restoring vintage computers, IC reverse engineering, and whatever Before GPS, how did aircraft navigate? One important technique was celestial navigation: navigating from the positions of the stars, planets, or the sun. While celestial navigation is accurate, cannot be jammed, and doesn&#39;t require any broadcast infrastructure, it is a difficult and time-consuming process to perform manually. In the early 1960s, an automated system was developed for the B-52 bomber to automatically track stars and compute navigation information. Digital computers weren&#39;t suitable at the time, so the star tracking system performed trigonometric calculations with an electromechanical analog computer called the Angle Computer.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html" target="_blank" rel="noopener noreferrer">righto.com</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">samhenri.gold</div>
+  <h2>Thoughts and feelings around Claude Design</h2>
+  <div class="meta">by cdrnsf </div>
+  <p class="summary">I tried Claude Design yesterday and I have a theory for how this whole thing shakes out. As product teams scaled and design needed to justify itself inside engineering orgs, it was pushed toward systematization — and Figma invented its own primitives to make that work: components, styles, variables, props, and so on. Some concepts are borrowed from programming, some aren’t, and the whole thing doesn’t neatly map onto anything. Guidance evolves, migrations pile up, and if you want to automate any of it you’re stuck with a handful of shoddy plugins. The beast is hairy enough that entire design roles now specialize in wrangling the system itself.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://samhenri.gold/blog/20260418-claude-design/" target="_blank" rel="noopener noreferrer">samhenri.gold</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">nist.gov</div>
+  <h2>NIST scientists create &#39;any wavelength&#39; lasers</h2>
+  <div class="meta">by rbanffy </div>
+  <p class="summary">An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits Computer chips that cram billions of electronic devices into a few square inches have powered the digital economy and transformed the world. Scientists may be on the cusp of launching a similar technological revolution — this time using light.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits" target="_blank" rel="noopener noreferrer">nist.gov</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">sentinelcolorado.com</div>
+  <h2>College instructor turns to typewriters to curb AI-written work</h2>
+  <div class="meta">by gnabgib </div>
+  <p class="summary">Sign up for our free Sentinel email E-ditions to get the latest news directly in your inbox. The Sentinel not only cares deeply about bringing our readers accurate and critical news, we insist all of the crucial stories we provide are available for everyone — for free. Like you, we know how critical accurate and dependable information and facts are in making the best decisions about, well, everything that matters. Factual reporting is crucial to a sound democracy, a solid community and a satisfying life. So there’s no paywall at SentinelColorado.com.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/" target="_blank" rel="noopener noreferrer">sentinelcolorado.com</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">sumida-aquarium.com</div>
+  <h2>Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups</h2>
+  <div class="meta">by Lwrless </div>
+  <p class="summary">Sumida Penguins Relationship Chart 2026｜Sumida Aquarium --&gt; --&gt; --&gt; --&gt; --&gt; --&gt; --&gt;. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.sumida-aquarium.com/special/sokanzu/en/2026/" target="_blank" rel="noopener noreferrer">sumida-aquarium.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">science.nasa.gov</div>
+  <h2>NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating</h2>
+  <div class="meta">by sohkamyung </div>
+  <p class="summary">On April 17, engineers at NASA’s Jet Propulsion Laboratory (JPL) in Southern California sent commands to shut down an instrument aboard Voyager 1 called the Low-energy Charged Particles experiment, or LECP. The nuclear-powered spacecraft is running low on power, and turning off the LECP is considered the best way to keep humanity’s first interstellar explorer going. Mission engineers at NASA’s Jet Propulsion Laboratory in Southern California turned off the Low-energy Charged Particles experiment aboard Voyager 1 on April 17, 2026. NASA/JPL-Caltech The LECP has been operating almost without interruption since Voyager 1 launched in 1977 — almost 49 years. It measures low-energy charged particles, including ions, electrons, and cosmic rays originating from our solar system and galaxy.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/" target="_blank" rel="noopener noreferrer">science.nasa.gov</a></p>
+</section>
+</body>
+</html>
