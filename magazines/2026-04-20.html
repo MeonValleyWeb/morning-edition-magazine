@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-20</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-20 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">bleepingcomputer.com</div>
+  <h2>Vercel April 2026 security incident</h2>
+  <div class="meta">by colesantiago </div>
+  <p class="summary">Payouts King ransomware uses QEMU VMs to bypass endpoint security Apple account change alerts abused to send phishing emails Critical flaw in Protobuf library enables JavaScript code execution NIST to stop rating non-priority flaws due to volume increase Vercel confirms breach as hackers claim to be selling stolen data Apple account change alerts abused to send phishing emails NIST to stop rating non-priority flaws due to volume increase Edit, convert, and sign PDFs fast with this $40 lifetime tool How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to remove a Trojan, Virus, Worm, or other Malware Update 4/19/26: Added additional information from Vercel that was disclosed after publishing. Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data. Vercel is a cloud platform that provides hosting and deployment infrastructure for developers, with a strong focus on JavaScript frameworks. The company is&amp;nbsp;known for developing Next.js, a widely used React framework, and for offering services such as serverless functions, edge computing, and CI/CD pipelines that enable developers to build, preview, and deploy applications. In a security bulletin published today, the company said a limited subset of customers was affected by a security breach.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/" target="_blank" rel="noopener noreferrer">bleepingcomputer.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">theverge.com</div>
+  <h2>The RAM shortage could last years</h2>
+  <div class="meta">by omer_k </div>
+  <p class="summary">Posts from this topic will be added to your daily email digest and your homepage feed. Posts from this topic will be added to your daily email digest and your homepage feed. Posts from this topic will be added to your daily email digest and your homepage feed. Memory makers are only expected to meet 60 percent of demand by the end of 2027. Memory makers are only expected to meet 60 percent of demand by the end of 2027.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years" target="_blank" rel="noopener noreferrer">theverge.com</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">simonwillison.net</div>
+  <h2>Changes in the system prompt between Claude Opus 4.6 and 4.7</h2>
+  <div class="meta">by pretext </div>
+  <p class="summary">Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it’s always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the other day (April 16, 2026) with a Claude.ai system prompt update since Opus 4.6 (February 5, 2026). I had Claude Code take the Markdown version of their system prompts , break that up into separate documents for each of the models and then construct a Git history of those files over time with fake commit dates representing the publication dates of each updated prompt— here’s the prompt I used with Claude Code for the web. Here is the git diff between Opus 4.6 and 4.7 .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://simonwillison.net/2026/Apr/18/opus-system-prompt/" target="_blank" rel="noopener noreferrer">simonwillison.net</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">pcgamer.com</div>
+  <h2>Turtle WoW classic server announces shutdown after Blizzard wins injunction</h2>
+  <div class="meta">by Brajeshwar </div>
+  <p class="summary">Enter your email below and we&#39;ll send confirmation, and sign you up to our newsletter. By submitting your information you agree to the Terms &amp; Conditions and Privacy Policy and are aged 16 or over. Get the biggest gaming news, reviews, and releases straight to your inbox. When you purchase through links on our site, we may earn an affiliate commission. Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/" target="_blank" rel="noopener noreferrer">pcgamer.com</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">github.com</div>
+  <h2>Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon</h2>
+  <div class="meta">by shivampkumar <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . Run TRELLIS.2 image-to-3D generation natively on Mac. This is a port of Microsoft&#39;s TRELLIS.2 — a state-of-the-art image-to-3D model — from CUDA-only to Apple Silicon via PyTorch MPS. Generates 400K+ vertex meshes from single images in ~3.5 minutes on M4 Pro .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/shivampkumar/trellis-mac" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">warontherocks.com</div>
+  <h2>The Bromine Chokepoint</h2>
+  <div class="meta">by crescit_eundo </div>
+  <p class="summary">Join War on the Rocks and gain access to content trusted by policymakers, military leaders, and strategic thinkers worldwide. The U.S.-Israeli war with Iran, now in an unstable ceasefire, has exposed a structural failure in the global semiconductor memory supply chain, and it is not the one analysts seem to be tracking. The story receiving attention is helium : Qatar&amp;rsquo;s Ras Laffan facility went offline , a 45-day inventory clock started running, and spot prices doubled within days. The story receiving almost no attention is bromine, and it is potentially the more dangerous one. Bromine is the raw material from which specialized chemical suppliers produce semiconductor-grade hydrogen bromide gas, the etch chemical that South Korean fabs use to carve the transistor structures in every Dynamic Random-Access Memory (DRAM) and NAND flash chip on earth.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/" target="_blank" rel="noopener noreferrer">warontherocks.com</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">mxmap.ch</div>
+  <h2>2,100 Swiss municipalities showing which provider handles their official email</h2>
+  <div class="meta">by doener </div>
+  <p class="summary">A map of all ~2,100 Swiss municipalities showing which provider handles their official email — grouped by jurisdiction — based on public DNS records and other public network signals. Digital sovereignty: US-based providers are subject to the US CLOUD Act, which allows US authorities to request stored data, regardless of where it is physically hosted. This map makes the current provider landscape visible. Each municipality&#39;s official domain is checked via 11 signals from DNS records, SMTP banners, ASN lookups, and a public Microsoft API endpoint, then classified by provider type with confidence scoring. Disclaimer: DNS records indicate mail routing and authorized senders, not necessarily where data is stored.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://mxmap.ch/" target="_blank" rel="noopener noreferrer">mxmap.ch</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">ashley.rolfmore.com</div>
+  <h2>Stop trying to engineer your way out of listening to people</h2>
+  <div class="meta">by walterbell </div>
+  <p class="summary">I spend a lot of time negotiating this in the software world: And if you&#39;re wondering why this happens, it&#39;s normally because: So lots of designers and product people have leapt onto 1, basically trying to turn talking to people into terms engineering people find more cuddly. Or even that term that&#39;s in vogue, socio-technical system. The problem isn&#39;t that you need a better system. The problem is you&#39;re avoiding doing the work. The problem is, 2 is much harder than 1.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/" target="_blank" rel="noopener noreferrer">ashley.rolfmore.com</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">teamchong.github.io</div>
+  <h2>Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)</h2>
+  <div class="meta">by teamchong <span class="applies">Directly applies to you</span></div>
+  <p class="summary">Describe any diagram, Gemma 4 E2B generates it as Excalidraw — entirely in your browser. The LLM outputs compact code (~50 tokens) instead of raw Excalidraw JSON (~5,000 tokens). The TurboQuant algorithm (polar + QJL) compresses the KV cache ~2.4× so longer conversations fit in GPU memory. Needs WebGPU subgroups (Safari/iOS not supported yet) and ~3 GB RAM (mobile browsers cap well below this). This demo reimplements the TurboQuant algorithm in WGSL compute shaders so it runs on the GPU at 30+&amp;nbsp;tok/s.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://teamchong.github.io/turboquant-wasm/draw.html" target="_blank" rel="noopener noreferrer">teamchong.github.io</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">usenix.org</div>
+  <h2>SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)</h2>
+  <div class="meta">by Eridanus2 </div>
+  <p class="summary">%PDF-1.7 4 0 obj (Identity) endobj 5 0 obj (Adobe) endobj 8 0 obj &gt; stream x��} `T���w�{���~{��{���b�@B����P  � * ���(^���Ul=��%l e7(�p����F�&#39;Q��Ug�  �P$QQ��hA16&#39;�̅���p(�Iq2$P���B�](��Q އz ;�e3��P��|r��BE.����@�����3�����t�9�= �&amp;��a��Q�nѼ���9�܃�gP݌���Xj���Q�G1���tN@4�hg�4�P.Ea�crrߪ��X6CQ &gt;���:�-��a```````8 �f�� ���{�����p,A �ED!�7�����C�����!A��1C���WG�QN|��=��  ?���@��9��&gt;��o�� ��߇����&#39;q?ϼO߭�{�K߭B?�U������Bx��@R����*נ\ A V�� ��� ��`@�8�}�r���7�K���N��\��T�����?��k��&amp;Կ&gt;�r0 ��� �z�P���+`8!�m�E(�Q GQ�CQT�h �?� &quot;ȅC�C&gt;r ���0�9C�ȥ2�AQ�3��I(A.�R� (��J� �N�y �!���0 �T�`LF�O�y:��� t��Ў f!���� ���\�Epz�}X����P��#/��\X�y����&gt;�B��2/���/�E���̟�&quot;�/�s�/�%�+`)�J87�.�eȗ�yȗ�|��|%\�y�� �W�|5\�| \��#��K������J�����;p��7�e�k� �����]�}�o��2o�Ͱ շ��ȷ�5hr�F��E^+�:�&gt;��7��N��?��.X�|7|y=|?�?p܄�C��Gp �2��eބ��v�`-�� ��;2o�C����S�+�:� �F�(sܓ�l��: ?Bu��ýȏ��ȏ�ȏ!�=�y3�y��[�̫�8�� �)�2o��!o�.�æ��a��OA�i�F�������3�(��1�ge�5�d^��` ���72� �g^�����$�K�-�[�-lG���sT�&quot;��`2Ɔ�*��5���K����7�W�o³�����o�s�o˼ �G~^��?�N�we� /&quot;� ^B~~�yއ��?�W�?��!��7��=�G�����2�g��O� ����� �����d}:�ӏ�&gt;��8��?a}:��� ��S�֮�����A ����� 5A��ZD�ZP��A� }��=��P*J��T �JШУB!���Q��B�:�������w��#����Cv�?^&amp;�0 ((pE�u �I� �Z�V� %��GsQ�R��N��VM �D�Va#ȡ�t��j5���1��eX�f /�C��W�3Щ�FQm�F�ѨӪ���(��O� �!��Ȯga�6c�a�#�3��/�F��2P��# t-�6�����n��K��$����f�Io2��F���n&gt;ƻ���� �;�N2��&amp;��,�Q�5K�(�0A�S,� ��8�cs�_���S�d���Fg��lf�M2�lf��(�0A�Sl���K�W�u� ��aL4���G��h``````x��|�L�~�@�D`�е��b��Q�ƞ�g˳Z�6�dsh�v���0;l&amp;���=�/����n��{L�l���p� &gt;9H��BW�a���i Zl9@�� ���7Z}ΐ���{�N�;���&gt;ƻ���� !?/P �JY�([���4y|F�Ϙ�}&gt;�����ܞ��x����F�W�u� ��a�b�#��3������a�!{���2id�1 8�.��C�BU� ���+�s8H�7N�,-�/�б�L�+�h1J�ˡ���x~ ^&amp;��2��������Z��*��PIi���� =�� ��ip��C�Ŷ�t�;J�gլ&gt;��Ɠ&amp;�������RYQ�TVZR\���Ǣ�p(�������۬�I2�:�F-�� �����w�b�]B, }�6��h���z$�ٙ��Ϟ1mJ?���aJ`��]� v;h1psӔU�z��-���]�zU�k��)�)��c藋�\=��3q̤ ��]�&gt;��\�Q�Ч�&gt;ߜp 5� ��ƽ� &amp;.������.p�VO�v�{��3�����z��nW*���Mq�&amp;ɔ��McN������NV�Ωj���9Kh�£�Btf0%S��LU��T��YUy�N�W�l,��]���R 5���Q)X�` ����&amp;3r&amp;ʨ�P%�&#39;��������x�VU�)��N�W-���/�(a�A����R��`��=)������d���IC�4���uR���6�����~���;�X���[���5JvK˼�.b�?��d��L ��0uJ�eug.o�L��.k_��.��4M�=\N�yx�+����f��K��W)W��=*k�lBû�ΑYn������̧ԗ,�KfWM����_�-y�� �#�Z�?���#�@��1�\�Utǋ�o7hp6� N�9Nbd_�%�O����}`$�����%+���v-�T��m(8��7�v,�?�(8t�1] ff��H�n�S�o���c~%��n&#39;)�P~��,m�o���Cv�9 ��!�*u� �� j�����������XUb�uP���L}U�J�?F��XLc�|�E�1��c����A�=覔 �o�w�Z� ��17ˊHAr31愴��%�jM�Ei�Evvm��O��x&amp;�5�&quot;n�o�eM��C=��V�0�.̖z�����J�29&#39;.�s��I�b��/�=g�u�� ,�ɨ]�|#�Q|�B@g��&amp;�t mh���L]�܅����kd�$�lG~Q֯���ȋd} �MV��˨ E�zݭD^�����0rգc��4[����!� �ERN�&quot;Dȧ�bdW��l�p�j���T���|MN�k��59��0\T�cj_�ݽ��^�ݽ���Pf�ȋdU �MV��˨�{5blppw`�ӑ�F�6 J��Q,�u~ꂻ9ŭ��/��[��a�R(+�e%�,u���� F��܍�m �H6ɡ���2tV���P�͹���JU��c2$]p���\��|&#39;L (��?���鹅(�綠�&gt;1Q�\�f��eJǩ+)��$Z�+���Y�������������I������:������������G�o�ӷ�P���ߌ���17��u]� �����gЈ����y� ���9sO�ψ��ﬔS|Z�7�I��3��+?Ѩ:�b�܉��������X/�赤r+�#��4u��Ґ�9��J�JTO�.Q�TMV5☓����� ���m��@Hѕ�{� u渥9q �D�k:_׭c&amp;M�z��ޕ����}LW!���̝ɝ�Ҽ�[@��)�� � ��٧X �32�x vّ��! W�d���A مd;y��qan ?�ߨ�.� K�g=i#��R�in&#39; ?��UH �  ;�} �bG�K}�0�i8eЊ�� `^���)x���C�0�ad4�4��%�5��#r?y� �h3�LyfM����=r)x���C֮��~ �?� �b��-�&amp;r�Pʭ!���In)�w3y����1�qQ��?���5���p�Ͳ�0�Ş���y�˂M� ���b�c��%�Y0�#�y��^ � ��*2�L�f� y��0��c_��LˬU�+�Kl� {/&#39;�� u�t�0��7`$���f�vW�$J�X��(�)�(T � ��F̃�X�K0���:lO���|J$\�&gt; �a�q`;����8 K} ܏���MfC�1��$R�-��h?{+���1Mo�{�sd�t���T&gt;��m��`h�5d�j)����O�ѵ����|P�x�pP�7.S��� v X�&amp;��&gt;�,�T�9z�F�Ce� �!����������لS&#39;a�_Ǒ�8&#39;3��S5�� �pL�b {�2*h|�#O)U=����Bx��Jx��KT*����I�� NgB����v�������Q-�CT4MQ$�`_�߾/��� ly��%~ �?tX6�SN4[+8�� ��� �Ji�8C� �ZUĴj��n�p{4�\��v:qG�q������g��������T *#8E �ʊ��I� ����c� �~Т��C���Ӷ� �A�:&amp;��徏�� m��U�ǌ��v�f��&gt;��� ^�Co��t��jTѽ}^��ݒR�$&quot;�lYx+�`�]lI~�LT����YUJ�dv���$�?oPs��1��D�)�47L�~c�/�^��3�29��{��3��]N��Th��Jq���(�ʭU���X-`�,�:l�*�K�i _w �i�-�Ǽ�����{9L�F+z{H��RG=$�&amp;f�n h�byؠ :,��)($�x����K�y�םg$d!��ۂ3�5 ׇ�������� ��{�C�&quot;���z1�0 ��H�j�o�Lh�{t�]8h��H�=�,���z��n� fL9�˟b~j@kS�z=�� �Rk�^���k�=dZJb�&quot;���F�� [�&gt;P���R:�(D�DI�ĭ�V�Δ�T�8��8�m�E�2|��l�`��h�[+��z�?����իJ�F�1�7Rn*��qZ4�sW\p�E}{�l3pݚ���mgߋ�l&#39;��Ғ��w+�B���J J�ָ4P� V��c��U�Q���VAp:�|�O n��O§ ��!! �؃ �Yʝ���&quot;/�#�K7�H��A������9������{/6�={pJ_�ʧ���)lo �C��rN�b�*��/Z)��k%N��z �T���pN��I���7�������!��6cX�?Ⓘ�}{=�c��V�����?����*�h�K��&#39;w�I���C��󱍫� �S�N��tVK�n^lyL%C&#39;&#39;�.�p���yP�`�G|Ԫۤ���L9Լ���N�U�SI��_�5i���MJ� 2�m��)븝ũS��v��h��l~��ա��:f�5��N�������ך ��&gt;-��?ڋ �8�K�1��oJ�X��W��a��j��Szbz�&amp; J/��i��ڭ��la�iQ��ŀsL���0]c˻efy��FgKy�DB�HqJ~ѧ��xeP����\��e���?�m|�9Ҿ�ƻ���*ł�x���_v��G�~�v�5瞷�gdx�2m{]�����l���� ��4�J��0%�R�. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf" target="_blank" rel="noopener noreferrer">usenix.org</a></p>
+</section>
+</body>
+</html>
