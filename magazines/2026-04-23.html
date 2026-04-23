@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-23</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-23 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">wheelfront.com</div>
+  <h2>Alberta startup sells no-tech tractors for half price</h2>
+  <div class="meta">by Kaibeezy </div>
+  <p class="summary">Four hundred inquiries from American farmers poured in after a single interview. For a tractor built in Alberta with a remanufactured 1990s diesel engine and zero electronics. Ursa Ag, a small Canadian manufacturer, is assembling tractors powered by 12-valve Cummins engines — the same mechanically injected workhorses that powered combines and pickup trucks decades ago — and selling them for roughly half the price of comparable machines from established brands. The 150-horsepower model starts at $129,900 CAD, about $95,000 USD. The range-topping 260-hp version runs $199,900 CAD, around $146,000.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/" target="_blank" rel="noopener noreferrer">wheelfront.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">social.hails.org</div>
+  <h2>Windows 9x Subsystem for Linux</h2>
+  <div class="meta">by sohkamyung </div>
+  <p class="summary">Hailey: &quot;With Windows 9x Subsystem for Linux you can run a…&quot; - hails.org. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://social.hails.org/@hailey/116446826733136456" target="_blank" rel="noopener noreferrer">social.hails.org</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">qwen.ai</div>
+  <h2>Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</h2>
+  <div class="meta">by mfiguiere </div>
+  <p class="summary">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://qwen.ai/blog?id=qwen3.6-27b" target="_blank" rel="noopener noreferrer">qwen.ai</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">fingerprint.com</div>
+  <h2>We found a stable Firefox identifier linking all your private Tor identities</h2>
+  <div class="meta">by danpinto <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We recently discovered a privacy vulnerability affecting all Firefox-based browsers. The issue allows websites to derive a unique, deterministic, and stable process-lifetime identifier from the order of entries returned by IndexedDB, even in contexts where users expect stronger isolation. This means a website can create a set of IndexedDB databases, inspect the returned ordering, and use that ordering as a fingerprint for the running browser process. Because the behavior is process-scoped rather than origin-scoped, unrelated websites can independently observe the same identifier and link activity across origins during the same browser runtime. In Firefox Private Browsing mode , the identifier can also persist after all private windows are closed, as long as the Firefox process remains running.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/" target="_blank" rel="noopener noreferrer">fingerprint.com</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">maurycyz.com</div>
+  <h2>5x5 Pixel font for tiny screens</h2>
+  <div class="meta">by zdw </div>
+  <p class="summary">All characters fit within a 5 pixel square, and are safe to draw on a 6x6 grid. The design is based off of lcamtuf&#39;s 5x6 font-inline.h, which is itself inspired by the ZX Spectrum&#39;s 8x8 font. 5x5 is the smallest size that doesn&#39;t compromise legibility: Five by five is actually big enough to draw most lowercase letters one pixel smaller, making them visually distinct from uppercase. Narrower 4x5 and 3x5 dimensions are possible , but would require sacrificing the M, dotted zero, and reduce U/V/Y distinctiveness. There&#39;s no artistic reason to make all characters five wide just because a few must be...</p>
+  <p class="readmore">Read full story: <a class="link" href="https://maurycyz.com/projects/mcufont/" target="_blank" rel="noopener noreferrer">maurycyz.com</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">techcrunch.com</div>
+  <h2>Apple fixes bug that cops used to extract deleted chat messages from iPhones</h2>
+  <div class="meta">by cdrnsf </div>
+  <p class="summary">The first StrictlyVC of 2026 hits SF on April 30. Save up to $680 on your Disrupt 2026 pass. Apple released a software update on Wednesday for iPhones and iPads fixing a bug that allowed law enforcement to extract messages that had been deleted or disappeared automatically from messaging apps. This was because notifications that displayed the messages’ content were also cached on the device for up to a month. In a security notice on its website, Apple said that the bug meant “notifications marked for deletion could be unexpectedly retained on the device.” This is a clear reference to an issue revealed by 404 Media earlier this month.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/" target="_blank" rel="noopener noreferrer">techcrunch.com</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">nrehiew.github.io</div>
+  <h2>Over-editing refers to a model modifying code beyond what is necessary</h2>
+  <div class="meta">by pella <span class="applies">Directly applies to you</span></div>
+  <p class="summary">AI-assisted coding has become the norm and with tools like Cursor, GitHub Copilot, Claude Code, Codex, we are increasingly letting models touch our code. If you have used any of these tools in the past year, you have probably experienced something like this: you ask the model to fix a simple bug (perhaps a single off-by-one error, or maybe a wrong operator). The model fixes the bug but half the function has been rewritten. An extra helper function has appeared. A perfectly reasonable variable name has been renamed.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://nrehiew.github.io/blog/minimal_editing/" target="_blank" rel="noopener noreferrer">nrehiew.github.io</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">adriankrebs.ch</div>
+  <h2>Scoring Show HN submissions for AI design patterns</h2>
+  <div class="meta">by hubraumhugo </div>
+  <p class="summary">An attempt to detect AI design patterns in Show HN pages When browsing Hacker News, I noticed that many Show HN projects now have a generic sterile feeling that tells me they are purely AI-generated. Initially I couldn’t tell what it was exactly, so I wondered if we could automatically quantify this subjective feeling by scoring 500 Show HN pages for AI design patterns. Claude Code has led to a large increase in Show HN projects. So much, that the moderators of HN had to restrict Show HN submissions for new accounts. Here is how the Show HN submissions increased over the last few years: Update: dang pointed out that the March 2026 dip correlates with the rollout of /showlim , the view newer accounts now see.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.adriankrebs.ch/blog/design-slop/" target="_blank" rel="noopener noreferrer">adriankrebs.ch</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">psu.edu</div>
+  <h2>Ultraviolet corona discharges on treetops during storms</h2>
+  <div class="meta">by t-3 </div>
+  <p class="summary">The positive, left, and negative corona discharges are shown on a spruce branch in a nearly pitch-black environment of a meteorology and atmospheric sciences lab at Penn State. Credit: William Brune / Penn State . Creative Commons UNIVERSITY PARK — In a converted 2013 Toyota Sienna affixed with a hand-built telescopic weather device protruding from the roof, Penn State experts in meteorology and atmospheric science made their way down the nation’s eastern coast in June 2024 in search of Florida’s famed near-daily summer thunderstorms. They were hoping to catch corona discharges, a long-hypothesized atmospheric weather phenomenon where miniscule pulses of electricity dance at the tips of tree leaves, causing the canopy to glow in the ultraviolet (UV). For more than 70 years, scientists have suspected treetops might emit these corona electrical discharges because of odd electric field activity in and over forests during storms, yet they have never been documented outside the lab.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.psu.edu/news/earth-and-mineral-sciences/story/treetops-glowing-during-storms-captured-film-first-time" target="_blank" rel="noopener noreferrer">psu.edu</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">zed.dev</div>
+  <h2>Parallel agents in Zed</h2>
+  <div class="meta">by ajeetdsouza </div>
+  <p class="summary">Zed now lets you orchestrate multiple agents , each running in parallel in the same window. The new Threads Sidebar lets you control exactly which folders and repositories agents can access, and lets you monitor threads as they run. All of this runs at Zed&#39;s famously buttery-smooth 120 fps , with whichever agents you like , and it&#39;s all open-source . The Threads Sidebar offers an overview of all your threads at a glance, grouped by project, so you can: The Sidebar gives you instant access to common operations like stopping threads, archiving them, and kicking off new ones. Even as your workflow grows in complexity, with several projects running multiple agents at once, the Sidebar makes it easy to stay organized as your agents work.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://zed.dev/blog/parallel-agents" target="_blank" rel="noopener noreferrer">zed.dev</a></p>
+</section>
+</body>
+</html>
