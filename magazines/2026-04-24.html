@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-24</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-24 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">wheelfront.com</div>
+  <h2>Alberta startup sells no-tech tractors for half price</h2>
+  <div class="meta">by Kaibeezy </div>
+  <p class="summary">Four hundred inquiries from American farmers poured in after a single interview. For a tractor built in Alberta with a remanufactured 1990s diesel engine and zero electronics. Ursa Ag, a small Canadian manufacturer, is assembling tractors powered by 12-valve Cummins engines — the same mechanically injected workhorses that powered combines and pickup trucks decades ago — and selling them for roughly half the price of comparable machines from established brands. The 150-horsepower model starts at $129,900 CAD, about $95,000 USD. The range-topping 260-hp version runs $199,900 CAD, around $146,000.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/" target="_blank" rel="noopener noreferrer">wheelfront.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">openai.com</div>
+  <h2>GPT-5.5</h2>
+  <div class="meta">by rd </div>
+  <p class="summary">GPT-5.5. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://openai.com/index/introducing-gpt-5-5/" target="_blank" rel="noopener noreferrer">openai.com</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">crawshaw.io</div>
+  <h2>I am building a cloud</h2>
+  <div class="meta">by bumbledraven </div>
+  <p class="summary">Today is fundraising announcement day . As is the nature of writing for a larger audience, it is a formal, safe announcement. Writing must necessarily become impersonal at scale. But I would like to write something personal about why I am doing this. What is the goal of building exe.dev ?</p>
+  <p class="readmore">Read full story: <a class="link" href="https://crawshaw.io/blog/building-a-cloud" target="_blank" rel="noopener noreferrer">crawshaw.io</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">socket.dev</div>
+  <h2>Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign</h2>
+  <div class="meta">by tosh </div>
+  <p class="summary">Bitwarden CLI 2026.4.0 was compromised in the Checkmarx supply chain campaign after attackers abused a GitHub Action in Bitwarden’s CI/CD pipeline. Socket proactively blocks malicious open source packages in your code. Socket researchers discovered that the Bitwarden CLI was compromised as part of the ongoing .css-1dkuy37{color:var(--chakra-colors-link);font-weight:500;-webkit-text-decoration:underline;text-decoration:underline;display:initial;}@layer recipes{.css-1dkuy37{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;outline:none;gap:var(--chakra-spacing-1\.5);cursor:pointer;border-radius:var(--chakra-radii-l1);--focus-ring-color:var(--chakra-colors-purple-focus-ring);--focus-ring-width:2px;}.css-1dkuy37:is(:focus-visible, [data-focus-visible]){outline-offset:0px;outline-width:var(--focus-ring-width, 1px);outline-color:var(--focus-ring-color);outline-style:var(--focus-ring-style, solid);border-color:var(--focus-ring-color);}} Checkmarx supply chain campaign . The open source password manager serves more than 10 million users and over 50,000 businesses, and ranks among among the top three password managers by enterprise adoption. The affected package version appears to be @bitwarden/cli2026.4.0 , and the malicious code was published in bw1.js , a file included in the package contents.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://socket.dev/blog/bitwarden-cli-compromised" target="_blank" rel="noopener noreferrer">socket.dev</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">api-docs.deepseek.com</div>
+  <h2>DeepSeek v4</h2>
+  <div class="meta">by impact_sy </div>
+  <p class="summary">A very common reason is a wrong site baseUrl configuration . The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API. * The model names deepseek-chat and deepseek-reasoner will be deprecated on 2026/07/24. For compatibility, they correspond to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://api-docs.deepseek.com/" target="_blank" rel="noopener noreferrer">api-docs.deepseek.com</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">anthropic.com</div>
+  <h2>An update on recent Claude Code quality reports</h2>
+  <div class="meta">by mfiguiere </div>
+  <p class="summary">We traced recent reports of Claude Code quality issues to three separate changes. Here&#39;s what happened and what we&#39;re changing. Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. All three issues have now been resolved as of April 20 (v2.1.116).</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank" rel="noopener noreferrer">anthropic.com</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">simonomi.dev</div>
+  <h2>Your hex editor should color-code bytes</h2>
+  <div class="meta">by tobr </div>
+  <p class="summary">too often, i see hex editors 1 that look like this: every time i do, i feel bad for the poor person having to use it (especially if that person is me!). a plain list of bytes makes it hard to notice interesting things in the data. go ahead, try to find the single C0 in these bytes: it’s much easier to pick out the unique byte when it’s a different color! human brains are really good at spotting visual patterns—given the right format this file starts with the magic bytes KPS , then a bunch of ( little-endian ) 32-bit integers that range from 0 to 999 ( 0x3E7 ). the colors make it quick to recognize that every 32-bit integer is relatively small, as the two high bytes are always 00 00 .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://simonomi.dev/blog/color-code-your-bytes/" target="_blank" rel="noopener noreferrer">simonomi.dev</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">bloomberg.com</div>
+  <h2>Meta tells staff it will cut 10% of jobs</h2>
+  <div class="meta">by Vaslo </div>
+  <p class="summary">34||h 1?t[1]=i:t.push(i)}else t[0]&amp;&amp;t[0].headers&amp;&amp;e(t[0].headers,o)&amp;&amp;(this.dt=o)}),u.on(&quot;fetch-start&quot;,function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length&gt;=1&amp;&amp;(this.target=t[0]),t.length&gt;=2&amp;&amp;(this.opts=t[1]);var n,r=this.opts||{},i=this.target;if(&quot;string&quot;==typeof i?n=i:&quot;object&quot;==typeof i&amp;&amp;i instanceof y?n=i.url:window.URL&amp;&amp;&quot;object&quot;==typeof i&amp;&amp;i instanceof URL&amp;&amp;(n=i.href),o(this,n),&quot;data&quot;!==this.params.protocol){var s=(&quot;&quot;+(i&amp;&amp;i instanceof y&amp;&amp;i.method||r.method||&quot;GET&quot;)).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on(&quot;fetch-done&quot;,function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),&quot;data&quot;===this.params.protocol)return void g(&quot;Ajax/DataUrl/Excluded&quot;);this.params.status=e?e.status:0;var n;&quot;string&quot;==typeof this.rxSize&amp;&amp;this.rxSize.length&gt;0&amp;&amp;(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s(&quot;xhr&quot;,[this.params,r,this.startTime,this.endTime,&quot;fetch&quot;],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||&quot;&quot;).indexOf(&quot;data:&quot;))return{protocol:&quot;data&quot;};var e=document.createElement(&quot;a&quot;),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split(&quot;://&quot;);!o.port&amp;&amp;i[1]&amp;&amp;(o.port=i[1].split(&quot;/&quot;)[0].split(&quot;@&quot;).pop().split(&quot;:&quot;)[1]),o.port&amp;&amp;&quot;0&quot;!==o.port||(o.port=&quot;https&quot;===i[0]?&quot;443&quot;:&quot;80&quot;),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],&quot;/&quot;!==o.pathname.charAt(0)&amp;&amp;(o.pathname=&quot;/&quot;+o.pathname);var a=!e.protocol||&quot;:&quot;===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&amp;&amp;e.port===n.port;return o.sameOrigin=a&amp;&amp;(!e.hostname||s),&quot;/&quot;===o.pathname&amp;&amp;(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return&quot;json&quot;===n&amp;&amp;null!==e?e:&quot;arraybuffer&quot;===n||&quot;blob&quot;===n||&quot;json&quot;===n?o(t.response):&quot;text&quot;===n||&quot;&quot;===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability(&quot;API/&quot;+e+&quot;/called&quot;),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t(&quot;handle&quot;),a=t(32),s=t(33),c=t(&quot;ee&quot;).get(&quot;tracer&quot;),f=t(&quot;loader&quot;),u=t(25),d=NREUM;&quot;undefined&quot;==typeof window.newrelic&amp;&amp;(newrelic=d);var p=[&quot;setPageViewName&quot;,&quot;setCustomAttribute&quot;,&quot;setErrorHandler&quot;,&quot;finished&quot;,&quot;addToTrace&quot;,&quot;inlineHit&quot;,&quot;addRelease&quot;],l=&quot;api-&quot;,h=l+&quot;ixn-&quot;;a(p,function(t,e){d[e]=o(l,e,!0,&quot;api&quot;)}),d.addPageAction=o(l,&quot;addPageAction&quot;,!0),d.setCurrentRouteName=o(l,&quot;routeName&quot;,!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o=&quot;function&quot;==typeof e;return i(h+&quot;tracer&quot;,[f.now(),t,n],r),function(){if(c.emit((o?&quot;&quot;:&quot;no-&quot;)+&quot;fn-start&quot;,[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit(&quot;fn-err&quot;,[arguments,this,t],n),t}finally{c.emit(&quot;fn-end&quot;,[f.now()],n)}}}};a(&quot;actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get&quot;.split(&quot;,&quot;),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){&quot;string&quot;==typeof t&amp;&amp;(t=new Error(t)),u.recordSupportability(&quot;API/noticeError/called&quot;),i(&quot;err&quot;,[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split(&quot;.&quot;),r=0;r 0){var r=n[n.length-1];if(f&amp;&amp;f h.offset&amp;&amp;e !function(){&quot;use strict&quot;;function t(t,a,e,n){if(&quot;a&quot;===e&amp;&amp;!n)throw new TypeError(&quot;Private accessor was defined without a getter&quot;);if(&quot;function&quot;==typeof a?t!==a||!n:!a.has(t))throw new TypeError(&quot;Cannot read private member from an object whose class did not declare it&quot;);return&quot;m&quot;===e?n:&quot;a&quot;===e?n.call(t):n?n.value:a.get(t)}!function(){const t={VERSION:&quot;2.1.0&quot;};try{if(process)return process.env=Object.assign({},process.env),void Object.assign(process.env,t)}catch(t){}globalThis.process={env:t}}();const a=&quot;abbaClient:loaded&quot;;var e,n,i,o;class b{constructor({abbaPlatform:t,waitForContentMetadata:a=!1}){e.add(this),this.platform=t,this.waitForContentMetadata=a}init(){this.setupAbbaClient=this.setupAbbaClient.bind(this),t(this,e,&quot;m&quot;,i).call(this)?t(this,e,&quot;m&quot;,n).call(this):document.addEventListener(a,this.setupAbbaClient)}async getContentMetadata(){var t;return this.contentMetadata?this.contentMetadata:(this.waitForContentMetadata&amp;&amp;!this._contentMetadataPromise&amp;&amp;(this._contentMetadataPromise=new Promise((t=&gt;{this._resolveContentMetadata=t}))),null!==(t=this._contentMetadataPromise)&amp;&amp;void 0!==t?t:Promise.resolve({}))}setContentMetadata(t){var a;this.contentMetadata=t,null===(a=this._resolveContentMetadata)||void 0===a||a.call(this,this.contentMetadata)}async getAbbaClient(){return this.abbaClient?this.abbaClient:(this._abbaClientPromise||(this._abbaClientPromise=new Promise((t=&gt;{this._resolveAbbaClient=t}))),this._abbaClientPromise)}setAbbaClient(a){var n;this.abbaClient=a,window.__bloomberg__=t(this,e,&quot;m&quot;,o).call(this),window.__bloomberg__.abbaClient=a,null===(n=this._resolveAbbaClient)||void 0===n||n.call(this,this.abbaClient)}async getAbbaConfig(t,a){const e=await this.getAbbaClient();return await e.getConfig(t,a)}async refreshAbbaC. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency" target="_blank" rel="noopener noreferrer">bloomberg.com</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">bleepingcomputer.com</div>
+  <h2>French government agency confirms breach as hacker offers to sell data</h2>
+  <div class="meta">by robtherobber </div>
+  <p class="summary">Spain dismantles major $4.7M manga piracy platform, arrests four Microsoft releases emergency patches for critical ASP.NET flaw Kyber ransomware gang toys with post-quantum encryption on Windows New npm supply-chain attack self-spreads to steal auth tokens Hackers exploit file upload bug in Breeze Cache WordPress plugin Bitwarden CLI npm package compromised to steal developer credentials Trigona ransomware attacks use custom exfiltration tool to steal data Sign up for a $65 Costco Membership, get a $20 Digital Shop Card How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to remove a Trojan, Virus, Worm, or other Malware France Titres, the government agency in France&amp;nbsp;for issuing and managing administrative documents&amp;nbsp;has disclosed a data breach after a threat actor claimed the attack and stealing citizen data. Also known as Agence nationale des titres s&amp;eacute;curis&amp;eacute;s (ANTS), the administrative body operates under the French Ministry of the Interior, serving as the managing authority for official identity and registration documents in France. This includes driver&amp;rsquo;s licenses, national ID cards, passports, and immigration documents. According to an announcement the agency published yesterday, the attack occurred last week, and while the investigation is still ongoing, several data types for an undisclosed number of individuals may have been exposed. &amp;ldquo;On Wednesday, April 15, 2026, the National Agency for Secure Documents (ANTS) detected a security incident that may involve the disclosure of data from individual and professional accounts on the ants.gouv.fr portal,&amp;rdquo; reads ANTS&amp;rsquo;s announcement .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/" target="_blank" rel="noopener noreferrer">bleepingcomputer.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">github.com</div>
+  <h2>Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite</h2>
+  <div class="meta">by russellthehippo <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . honker is a SQLite extension + language bindings that add Postgres-style NOTIFY / LISTEN semantics to SQLite, with built-in durable pub/sub, task queue, and event streams, without client polling or a daemon/broker. Any language that can SELECT load_extension(&#39;honker&#39;) gets the same features. honker ships as a Rust crate ( honker , plus honker-core / honker-extension ), a SQLite loadable extension , and language packages: Python ( honker ), Node ( @russellthehippo/honker-node ), Bun ( @russellthehippo/honker-bun ), Ruby ( honker ), Go, Elixir, C++.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/russellromney/honker" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+</body>
+</html>
