@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-26</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-26 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">hypertalking.com</div>
+  <h2>1-Bit Hokusai&#39;s &quot;The Great Wave&quot; (2023)</h2>
+  <div class="meta">by stephen-hill </div>
+  <p class="summary">5 years ago I started a now completely stalled project (fingers crossed I can figure out how to restart soon) to draw all of Hokusai’s 36 views of Mount Fuji as 1-bit pixel art. I started this project for no other reason than I love to get into the ‘flow state’ from this kind of creative endeavour, and obviously I love to use old Macintosh computers. It feels very satisfying to get each pixel to fall into place, capturing both the original vision of Hokusai and the aesthetic that Susan Kare mastered early on with ‘the Japanese lady’ . Kare’s picture of course starred on the cover of every box of MacPaint and you can still buy beautiful prints of it today, directly from her. Another challenging aspect of this project is to make sure the images are the original Macintosh screen resolution of 512 x 342 pixels.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/" target="_blank" rel="noopener noreferrer">hypertalking.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">scientificamerican.com</div>
+  <h2>Amateur armed with ChatGPT solves an Erdős problem</h2>
+  <div class="meta">by pr337h4m </div>
+  <p class="summary">An amateur just solved a 60-year-old math problem&amp;mdash;by asking AI A ChatGPT AI has proved a conjecture with a method no human had thought of. Experts believe it may have further uses Liam Price just cracked a 60-year-old problem that world-class mathematicians have tried and failed to solve. He&amp;rsquo;s 23 years old and has no advanced mathematics training. What he does have is a ChatGPT Pro subscription, which gives him access to the latest large language models from OpenAI. Artificial intelligence has recently made headlines for solving a number of &amp;ldquo;Erd&amp;odblac;s problems,&amp;rdquo; conjectures left behind by the prolific mathematician Paul Erd&amp;odblac;s.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/" target="_blank" rel="noopener noreferrer">scientificamerican.com</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">fffff.at</div>
+  <h2>The Free Universal Construction Kit</h2>
+  <div class="meta">by robinhouston </div>
+  <p class="summary">Ever wanted to connect your Legos and Tinkertoys together? Announcing the Free Universal Construction Kit : a set of adapters for complete interoperability between 10 popular construction toys. Lab and Sy-Lab are pleased to present the Free Universal Construction Kit : a matrix of nearly 80 adapter bricks that enable complete interoperability between ten * popular childrenâ€™s construction toys. By allowing any piece to join to any other, the Kit encourages totally new forms of intercourse between otherwise closed systemsâ€”enabling radically hybrid constructive play, the creation of previously impossible designs, and ultimately, more creative opportunities for kids . As with other grassroots interoperability remedies, the Free Universal Construction Kit implements proprietary protocols in order to provide a public service unmetâ€”or unmeetableâ€”by corporate interests.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://fffff.at/free-universal-construction-kit/" target="_blank" rel="noopener noreferrer">fffff.at</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">fabiensanglard.net</div>
+  <h2>USB Cheat Sheet (2022)</h2>
+  <div class="meta">by gwerbret </div>
+  <p class="summary">I spend time investigating a non-existing bug today because I misunderstood a USB term. Note: Multi-lanes systems, uses lane striping (on TX) and lane bonding (on RX). span { text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; } &amp;nbsp;4 wires: PWR , GND , D+ , D- . &amp;nbsp;8 wires: PWR , GND , D+ , D- . RX+ &amp;nbsp;, RX- &amp;nbsp;, TX- &amp;nbsp;, TX+ .</p>
+  <p class="readmore">Read full story: <a class="link" href="https://fabiensanglard.net/usbcheat/index.html" target="_blank" rel="noopener noreferrer">fabiensanglard.net</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">blog.matthewbrunelle.com</div>
+  <h2>Using coding assistance tools to revive projects you never were going to finish</h2>
+  <div class="meta">by speckx </div>
+  <p class="summary">Note: I initially drafted this before my last post on how Claude Code is getting worse . I&#39;m putting it out now so I can reference it in a future post on OpenCode. As you can imagine my opinion on Claude Code has shifted since I wrote this. Long ago I attempted a personal project, but never finished due to life being busy. [1] Sort of like the Japanese word Tsundoku, for the pile of books you intend to eventually read one day.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/" target="_blank" rel="noopener noreferrer">blog.matthewbrunelle.com</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">openai.com</div>
+  <h2>OpenAI Privacy Filter</h2>
+  <div class="meta">by tanelpoder <span class="applies">Directly applies to you</span></div>
+  <p class="summary">OpenAI Privacy Filter. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://openai.com/index/introducing-openai-privacy-filter/" target="_blank" rel="noopener noreferrer">openai.com</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">github.com</div>
+  <h2>Martin Galway&#39;s music source files from 1980&#39;s Commodore 64 games</h2>
+  <div class="meta">by ingve <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . So that folks can read through, analyse &amp; understand the music players and how I went about doing my work. Feel free to re-assemble, modify &amp; generate new music. Please credit the original author of this work, Martin Galway.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/MartinGalway/C64_music" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">news.ycombinator.com</div>
+  <h2>Tell HN: An app is silently installing itself on my iPhone every day</h2>
+  <div class="meta">by _-x-_ </div>
+  <p class="summary">Every day for the past 3 days around 1pm EST the &amp;#x27;Headspace&amp;#x27; app has been silently appearing on my iPhone (13 Pro). Automatic downloads are turned off and I&amp;#x27;ve updated to the latest iOS since this started happening. I googled around and found a couple reddit threads with people reporting the exact same thing starting 2 or 3 days ago. There were reports from people on iPhone 12 and iPhone 17 so it doesn&amp;#x27;t seem device-specific. Does anyone understand how or why this is happening?</p>
+  <p class="readmore">Read full story: <a class="link" href="https://news.ycombinator.com/item?id=47906253" target="_blank" rel="noopener noreferrer">news.ycombinator.com</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">freakonomics.com</div>
+  <h2>Why has there been so little progress on Alzheimer&#39;s disease?</h2>
+  <div class="meta">by chiefalchemist </div>
+  <p class="summary">Why has there been so little progress on Alzheimer&#39;s disease? It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/" target="_blank" rel="noopener noreferrer">freakonomics.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">blog.korny.info</div>
+  <h2>The Joy of Folding Bikes</h2>
+  <div class="meta">by pavel_lishin </div>
+  <p class="summary">I was chatting to a friend about my folding bike and I had the urge to write about it - because this falls in the category of “Things I wish I’d had decades ago”. And maybe I can encourage some others to try these wonderful devices. Note: I’m 3 months into a new job so blogging has taken a back seat to drinking from a firehose of new domain knowledge, new people, new tech. I’m still playing with AI-assisted coding, but at a slower pace - I do hope to blog more about this when things calm down. 12 years ago I started cycling in London, commuting by train, and I used the bicycle hire scheme mis-named at the time “Boris Bikes”.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://blog.korny.info/2026/04/19/the-joy-of-folding-bikes" target="_blank" rel="noopener noreferrer">blog.korny.info</a></p>
+</section>
+</body>
+</html>
