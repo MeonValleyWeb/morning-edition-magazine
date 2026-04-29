@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-04-29</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(72px, 13vw, 180px);
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .cover p {
+      margin-top: 22px;
+      font-size: clamp(24px, 2.2vw, 36px);
+      font-weight: 700;
+    }
+    .spread {
+      min-height: 100vh;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(40px, 7vw, 96px);
+      display: grid;
+      align-content: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(0,0,0,0.08);
+    }
+    .num {
+      font-family: Fraunces, serif;
+      font-size: clamp(56px, 10vw, 140px);
+      line-height: 0.8;
+      font-weight: 900;
+      opacity: 0.9;
+    }
+    .kicker {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    h2 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(44px, 7vw, 110px);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 700;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .applies {
+      background: #ffef5a;
+      color: #111;
+      padding: 8px 14px;
+      border: 2px solid #111;
+      border-radius: 999px;
+      font-weight: 900;
+    }
+    .link {
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 900;
+      color: inherit;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+      word-break: break-word;
+    }
+    .summary {
+      margin: 0;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      max-width: 58ch;
+    }
+    .readmore {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 30px);
+      font-weight: 800;
+    }
+
+    .hero { background: #f8f5ef; }
+    .midnight { background: #0f1320; color: #f5f7ff; }
+    .midnight .applies { background: #a8ff60; }
+    .rose { background: #ffe4ea; position: relative; }
+    .rose .num { transform: rotate(-5deg); }
+    .terminal { background: #0b1712; color: #7bffb3; font-family: Inter, sans-serif; }
+    .terminal .num { color: #a7ffd1; }
+    .academic { background: #f6f1e6; }
+    .academic h2::first-letter { font-size: 1.5em; }
+    .sunburst { background: radial-gradient(circle at 10% 10%, #fff1a8, #ffd48d 35%, #ffa8a8 100%); }
+    .mono { background: #e8ecef; color: #111; }
+    .ocean { background: linear-gradient(135deg, #e7f7ff 0%, #b3e7ff 45%, #c7ffe8 100%); }
+    .paper { background: #fffdf8; border-left: 14px solid #151515; }
+    .stat { background: #101114; color: #fff; }
+    .stat .num { font-size: clamp(80px, 15vw, 220px); }
+
+    @media (max-width: 860px) {
+      body { font-size: 20px; }
+      .spread { padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div>
+      <h1>Morning<br/>Edition</h1>
+      <p>2026-04-29 • Hacker News, tuned to your taste</p>
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">mitchellh.com</div>
+  <h2>Ghostty is leaving GitHub</h2>
+  <div class="meta">by WadeGrimridge <span class="applies">Directly applies to you</span></div>
+  <p class="summary">Writing this makes me irrationally sad, but Ghostty will be leaving GitHub 1 . Since then, I&#39;ve opened GitHub every single day. Every day, multiple times per day, for over 18 years. A handful of exceptions in there (I&#39;d love to see the data), but I can&#39;t imagine more than a week per year. GitHub is the place that has made me the most happy.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://mitchellh.com/writing/ghostty-leaving-github" target="_blank" rel="noopener noreferrer">mitchellh.com</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">keepandroidopen.org</div>
+  <h2>Your phone is about to stop being yours</h2>
+  <div class="meta">by doener </div>
+  <p class="summary">Starting September 2026, a silent update, nonconsensually pushed by Google, will block every Android app whose developer hasn&#39;t registered with Google, signed their contract, paid up, and handed over government ID. Every app and every device, worldwide, with no opt-out. In August 2025, Google announced a new requirement: starting September 2026, every Android app developer must register centrally with Google before their software can be installed on any device. This includes apps shared between friends, distributed through F-Droid , built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://keepandroidopen.org/en/" target="_blank" rel="noopener noreferrer">keepandroidopen.org</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">github.com</div>
+  <h2>Localsend: An open-source cross-platform alternative to AirDrop</h2>
+  <div class="meta">by bilsbie <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . English (Default) • Español • فارسی • Filipino • Français • Indonesia • Italiano • 日本語 • ភាសាខ្មែរ • 한국어 • Polski • Português Brasil • Русский • ภาษาไทย • Türkçe • Українська • Tiếng Việt • 中文 LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection. LocalSend is a cross-platform app that enables secure communication between devices using a REST API and HTTPS encryption. Unlike other messaging apps that rely on external servers, LocalSend doesn&#39;t require an internet connection or third-party servers, making it a fast and reliable solution for local communication.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/localsend/localsend" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">talkie-lm.com</div>
+  <h2>Talkie: a 13B vintage language model from 1930</h2>
+  <div class="meta">by jekude </div>
+  <p class="summary">This is a 24/7 live feed of Claude Sonnet 4.6 prompting talkie-1930-13b-it in order to explore its knowledge, capabilities, and inclinations. talkie&amp;rsquo;s outputs reflect the culture and values of the texts it was trained on, not the views of its authors. Have you ever daydreamed about talking to someone from the past? What would you ask someone with no knowledge of the modern world? While we don&amp;rsquo;t have time machines yet, we can simulate this experience by training, in Owain Evans&amp;rsquo;s phrase, &amp;lsquo;vintage&amp;rsquo; language models : LMs trained only on historical text.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://talkie-lm.com/introducing-talkie" target="_blank" rel="noopener noreferrer">talkie-lm.com</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">lucumr.pocoo.org</div>
+  <h2>Before GitHub</h2>
+  <div class="meta">by mlex <span class="applies">Directly applies to you</span></div>
+  <p class="summary">GitHub was not the first home of my Open Source software. Before GitHub, I had my own Trac installation. I had Subversion repositories, tickets, tarballs, and documentation on infrastructure I controlled. Later I moved projects to Bitbucket, back when Bitbucket still felt like a serious alternative place for Open Source projects, especially for people who were not all-in on Git yet. And then, eventually, GitHub became the place, and I moved all of it there.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://lucumr.pocoo.org/2026/4/28/before-github/" target="_blank" rel="noopener noreferrer">lucumr.pocoo.org</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">github.blog</div>
+  <h2>An update on GitHub availability</h2>
+  <div class="meta">by salkahfi <span class="applies">Directly applies to you</span></div>
+  <p class="summary">Learn about artificial intelligence and machine learning across the GitHub ecosystem and the wider industry. Machine learning tips, tricks, and best practices. Explore the capabilities and benefits of AI code generation and how it can improve your developer experience. Resources for developers to grow in their skills and careers. Tips &amp; tricks to grow as a professional developer.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.blog/news-insights/company-news/an-update-on-github-availability/" target="_blank" rel="noopener noreferrer">github.blog</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">wiz.io</div>
+  <h2>GitHub RCE Vulnerability: CVE-2026-3854 Breakdown</h2>
+  <div class="meta">by bo0tzz <span class="applies">Directly applies to you</span></div>
+  <p class="summary">Details on CVE-2026-3854: A critical flaw in GitHub’s internal git infrastructure enabling RCE on GitHub.com and GitHub Enterprise Server. Wiz Research uncovered a critical vulnerability (CVE-2026-3854) in GitHub&#39;s internal git infrastructure that could have affected both GitHub.com and GitHub Enterprise Server. By exploiting an injection flaw in GitHub&#39;s internal protocol, any authenticated user could execute arbitrary commands on GitHub&#39;s backend servers with a single git push command - using nothing but a standard git client. Notably, this is one of the first critical vulnerabilities discovered in closed-source binaries using AI, highlighting a shift in how these flaws are identified. Despite the complexity of the underlying system, the vulnerability is remarkably easy to exploit.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854" target="_blank" rel="noopener noreferrer">wiz.io</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">legallayer.substack.com</div>
+  <h2>Who owns the code Claude Code wrote?</h2>
+  <div class="meta">by senaevren </div>
+  <p class="summary">Agentic coding tools like Claude Code, Cursor, and Codex generate code that may be uncopyrightable, owned by your employer, or contaminated by open source licenses you cannot see. Some of this is settled law, some is actively contested, and this piece is clear about which is which. If you are shipping AI-assisted code and have not thought about any of this, this piece is for you. Legal Layer Angle: In this piece I will talk about what a developer using AI coding tools needs to document to own what they build, what their employment contract probably says about AI-assisted work product, and what the practical implication is for open source contributions written with AI assistance. If you shipped code this week, some of it was probably written by an AI.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://legallayer.substack.com/p/who-owns-the-claude-code-wrote" target="_blank" rel="noopener noreferrer">legallayer.substack.com</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">buchodi.com</div>
+  <h2>How ChatGPT serves ads</h2>
+  <div class="meta">by lmbbuchodi </div>
+  <p class="summary">OpenAI&#39;s ad platform has two halves. On the ChatGPT side, the backend injects structured single_advertiser_ad_unit objects into the conversation SSE stream while the model is responding. On the merchant side, a tracking SDK called OAIQ runs in the visitor&#39;s browser and reports product views back to OpenAI. The two are tied together by Fernet-encrypted click tokens, four of them per ad. I captured both halves on a consented mobile-traffic research fleet.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/" target="_blank" rel="noopener noreferrer">buchodi.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">stratechery.com</div>
+  <h2>OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs</h2>
+  <div class="meta">by translocator </div>
+  <p class="summary">As I noted yesterday, today’s Stratechery Interview is early in terms of my timing — Tuesday instead of Thursday — and late in terms of delivery — 1pm Eastern instead of 6am — because the topic was embargoed. That embargo created a bit of a weird situation for me over the last several days: I think the Microsoft-OpenAI deal makes a lot of sense for both sides. Here are the bullet points of the new arrangement from Microsoft’s post : I think the most important point is the last one. Azure had a real competitive advantage thanks to being the only hyperscaler able to offer OpenAI models, but this also hindered OpenAI, particularly once it became clear that many enterprises cared first and foremost about accessing models on their current cloud of choice; I’ve been noting for a while that this was a real competitive advantage for Anthropic . In other words, Azure’s exclusivity was actively damaging Microsoft’s investment in OpenAI, and given Anthropic’s rapid growth this year, Microsoft needed to tend to their investment, even if it diminished Azure’s differentiation.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/" target="_blank" rel="noopener noreferrer">stratechery.com</a></p>
+</section>
+</body>
+</html>
