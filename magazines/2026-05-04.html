@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning Edition • 2026-05-04</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --max: 1200px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      font-size: 22px;
+      line-height: 1.35;
+      background: #f8f5ef;
+      color: #101114;
+    }
+    .cover {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 6vw;
+      background: linear-gradient(135deg, #f5e7d0 0%, #fff7ec 60%, #f2efe9 100%);
+      border-bottom: 10px solid #111;
+    }
+    .cover h1 {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: clamp(3.5rem, 10vw, 7rem);
+      font-weight: 900;
+      line-height: 0.95;
+      text-align: center;
+      color: #111;
+    }
+    .cover .date {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #555;
+    }
+    header {
+      max-width: var(--max);
+      margin: 4rem auto 2rem;
+      padding: 0 6vw;
+    }
+    header h2 {
+      margin: 0 0 1rem;
+      font-family: Fraunces, serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    header .intro {
+      font-size: 1.15rem;
+      line-height: 1.5;
+      color: #333;
+    }
+    .spread {
+      max-width: var(--max);
+      margin: 3rem auto;
+      padding: 4rem 6vw;
+      position: relative;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .spread.hero { background: linear-gradient(135deg, #fffbf0 0%, #fff 100%); }
+    .spread.midnight { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #eee; }
+    .spread.rose { background: linear-gradient(135deg, #ffe6f0 0%, #fff0f5 100%); }
+    .spread.terminal { background: #0d1117; color: #c9d1d9; font-family: 'Courier New', monospace; }
+    .spread.academic { background: #fefcf8; border-left: 6px solid #c19a6b; }
+    .spread.sunburst { background: linear-gradient(135deg, #fff4e6 0%, #ffe5b4 100%); }
+    .spread.mono { background: #f9f9f9; color: #222; }
+    .spread.ocean { background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%); }
+    .spread.paper { background: #fffef7; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    .spread.stat { background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); border-top: 4px solid #334e68; }
+    .num {
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+      font-family: Fraunces, serif;
+      font-size: 5rem;
+      font-weight: 900;
+      opacity: 0.15;
+      line-height: 1;
+    }
+    .kicker {
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #888;
+    }
+    .spread.midnight .kicker,
+    .spread.terminal .kicker { color: #aaa; }
+    h2 {
+      margin: 0 0 1rem;
+      font-family: Fraunces, serif;
+      font-size: 2.25rem;
+      font-weight: 700;
+      line-height: 1.15;
+    }
+    .meta {
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+      color: #666;
+    }
+    .spread.midnight .meta,
+    .spread.terminal .meta { color: #999; }
+    .applies {
+      display: inline-block;
+      margin-left: 0.5rem;
+      padding: 0.25rem 0.75rem;
+      background: #ffeb3b;
+      color: #111;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 4px;
+    }
+    .summary {
+      margin: 1.5rem 0;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: inherit;
+    }
+    .readmore {
+      margin-top: 2rem;
+      font-size: 0.95rem;
+    }
+    .link {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .link:hover { text-decoration: underline; }
+    .spread.midnight .link,
+    .spread.terminal .link { color: #58a6ff; }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div>
+      <h1>Morning<br>Edition</h1>
+      <div class="date">2026-05-04</div>
+    </div>
+  </div>
+  <header>
+    <h2>Today's Curated Tech Stories</h2>
+    <div class="intro">
+      Ten stories from Hacker News and TechCrunch, scored and ranked by relevance to your work. Stories flagged "Directly applies to you" match your active projects and interests.
+    </div>
+  </header>
+  
+<section class="spread hero">
+  <div class="num">01</div>
+  <div class="kicker">drive.com.au</div>
+  <h2>Mercedes-Benz commits to bringing back physical buttons</h2>
+  <div class="meta">by teleforce </div>
+  <p class="summary">Another brand backflips and admits that touch-sensitive buttons for frequently used controls were a mistake, but only after the nudge from customers. Mercedes-Benz joins the growing list of manufacturers listening to customers and admitting that touch-sensitive controls and burying controls in menus were mistakes. The German brand remains committed to offering large screens in its models, but has listened to its customers and will offer physical buttons for key functions in future. This is partly unlike Audi and Volkswagen, which have chosen to reduce the size of their infotainment screens to make room for the returning physical controls. The upcoming GLC and C-Class will be offered with the 39.1-inch MBUX &#39;Hyperscreen&#39; that covers almost the entire width of the dashboard, but with physical buttons in front of the dual wireless chargers, along with physical buttons and switches returning to the steering wheel.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/" target="_blank" rel="noopener noreferrer">drive.com.au</a></p>
+</section>
+
+<section class="spread midnight">
+  <div class="num">02</div>
+  <div class="kicker">github.com</div>
+  <h2>DeepClaude – Claude Code agent loop with DeepSeek V4 Pro</h2>
+  <div class="meta">by alattaran <span class="applies">Directly applies to you</span></div>
+  <p class="summary">We read every piece of feedback, and take your input very seriously. To see all available qualifiers, see our documentation . Use Claude Code&#39;s autonomous agent loop with DeepSeek V4 Pro , OpenRouter , or any Anthropic-compatible backend. Claude Code is the best autonomous coding agent — but it costs $200/month with usage caps. DeepSeek V4 Pro scores 96.4% on LiveCodeBench and costs $0.87/M output tokens.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://github.com/aattaran/deepclaude" target="_blank" rel="noopener noreferrer">github.com</a></p>
+</section>
+
+<section class="spread rose">
+  <div class="num">03</div>
+  <div class="kicker">theguardian.com</div>
+  <h2>OpenAI&#39;s o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors</h2>
+  <div class="meta">by donsupreme </div>
+  <p class="summary">Researchers say results mark a ‘profound change in technology that will reshape medicine’ Researchers say results mark a ‘profound change in technology that will reshape medicine’ From George Clooney in ER to Noah Wyle in The Pitt, emergency department doctors have long been popular heroes. But will it soon be time to hang up the scrubs? A groundbreaking Harvard study has found that AI systems outperformed human doctors in high-pressure emergency medicine triage, diagnosing more accurately in the potentially life and death moments when people are first rushed to hospital. The results were described by independent experts as showing “a genuine step forward” in the clinical reasoning of AIs and came as part of trials that tested the responses of hundreds of doctors against an AI. The authors said the results, published in the journal Science, showed large language models (LLMs) “have eclipsed most benchmarks of clinical reasoning”.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses" target="_blank" rel="noopener noreferrer">theguardian.com</a></p>
+</section>
+
+<section class="spread terminal">
+  <div class="num">04</div>
+  <div class="kicker">partyon.xyz</div>
+  <h2>BYOMesh – New LoRa mesh radio offers 100x the bandwidth</h2>
+  <div class="meta">by nullagent </div>
+  <p class="summary">We&#39;ve been hard at work …&quot; - PartyOn. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://partyon.xyz/@nullagent/116499715071759135" target="_blank" rel="noopener noreferrer">partyon.xyz</a></p>
+</section>
+
+<section class="spread academic">
+  <div class="num">05</div>
+  <div class="kicker">smithsonianmag.com</div>
+  <h2>New statue in London, attributed to Banksy, of a suited man, blinded by a flag</h2>
+  <div class="meta">by dryadin </div>
+  <p class="summary">Subscribe to Smithsonian magazine and get a FREE tote. A new statue possibly by the artist Banksy was erected this week in the middle of the night in central London. The artwork depicts a suited man, blinded by the wind-blown flag he is carrying and walking unknowingly off the ledge of a tall pedestal. When the sun came up on the statue Wednesday morning, people were quick to note Banksy’s signature scrawled along the base of the statue’s plinth. On Thursday, the artist’s Instagram account posted a video seemingly confirming his involvement—the post includes footage of the statue’s apparent installation, interspersed with cuts to London icons including Big Ben, a statue of Winston Churchill, a black cab and a guardsman soldier.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/" target="_blank" rel="noopener noreferrer">smithsonianmag.com</a></p>
+</section>
+
+<section class="spread sunburst">
+  <div class="num">06</div>
+  <div class="kicker">letsbuyspiritair.com</div>
+  <h2>Let&#39;s Buy Spirit Air</h2>
+  <div class="meta">by bjhess </div>
+  <p class="summary">Spirit 2.0 — The Airline Owned by the People, for the People. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://letsbuyspiritair.com/" target="_blank" rel="noopener noreferrer">letsbuyspiritair.com</a></p>
+</section>
+
+<section class="spread mono">
+  <div class="num">07</div>
+  <div class="kicker">wiki.alcidesfonseca.com</div>
+  <h2>Why TUIs are back</h2>
+  <div class="meta">by rickcarlino </div>
+  <p class="summary">Terminal User Interfaces ( TUI s) are making a comeback. DHH ’s Omarchy is made of three types of user interfaces: TUI s, for immediate feedback and bonus geek points, webapps because 37signals (his company) sells SAAS web applications and the unavoidable gnome-style native applications that really do not fit well in the style of the distro. The same pattern occurred around 10 years ago in code editors. We came from the native editors of BBE dit, Textmate (also promoted by DHH ), Notedpad++ and Sublime to Electro-powered apps like Atom, VSC ode and all its forks. The hardcore, moved to vim or emacs, trading immediate feedback and higher usability for the steepest learning curve I’ve seen.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/" target="_blank" rel="noopener noreferrer">wiki.alcidesfonseca.com</a></p>
+</section>
+
+<section class="spread ocean">
+  <div class="num">08</div>
+  <div class="kicker">isene.org</div>
+  <h2>A desktop made for one</h2>
+  <div class="meta">by xngbuilds </div>
+  <p class="summary">For the first time in twenty-five years I’m sitting in front of a computer where almost every program I touch was designed by me. One tool at a time, the off-the-shelf option got swapped out for something a little closer to how my hands wanted to work. (I wrote about the start of this a couple of weeks ago — that post laid out the early swaps; this one is the view from the other side of the journey.) It’s been a crazy few weeks guiding Claude Code inbetween all the other stuff I’m doing in life. I direct CC, it works while I do other stuff. I get a second or few in between tasks, and I respond.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://isene.org/2026/05/Audience-of-One.html" target="_blank" rel="noopener noreferrer">isene.org</a></p>
+</section>
+
+<section class="spread paper">
+  <div class="num">09</div>
+  <div class="kicker">tomshardware.com</div>
+  <h2>Denuvo has been cracked in all single-player games it previously protected</h2>
+  <div class="meta">by oceansky </div>
+  <p class="summary">\u2713 Flexible 30-day rolling contract &quot;,&quot;price&quot;:6,&quot;recurrence&quot;:&quot;per month&quot;,&quot;planID&quot;:&quot;thp-paywall-pwl26-GBP-Monthly&quot;,&quot;title&quot;:&quot;Monthly&quot;,&quot;subtitle&quot;:null,&quot;cta_label&quot;:&quot;Subscribe Now&quot;,&quot;currency&quot;:&quot;\u00a3&quot;,&quot;highlight_label&quot;:null,&quot;url&quot;:null},{&quot;highlight_label&quot;:&quot;Best Plan&quot;,&quot;icon&quot;:&quot;offers[1]&quot;,&quot;description&quot;:&quot; \u2713 Save 65% on annual plans &quot;,&quot;price&quot;:25,&quot;recurrence&quot;:&quot;per year&quot;,&quot;planID&quot;:&quot;thp-paywall-pwl26-GBP-Yearly&quot;,&quot;title&quot;:&quot;Annual&quot;,&quot;subtitle&quot;:null,&quot;cta_label&quot;:&quot;Subscribe Now&quot;,&quot;currency&quot;:&quot;\u00a3&quot;,&quot;url&quot;:null}],&quot;offers_name&quot;:&quot;TomsHardware Offer&quot;,&quot;cb_business_entity&quot;:&quot;tomshardware&quot;,&quot;cb_plan&quot;:&quot;Tom&#39;s Hardware Monthly&quot;,&quot;cb_porc_entitlement&quot;:&quot;thp-paywall-pwl10-GBP-Monthly&quot;,&quot;cb_porc_plan_id&quot;:&quot;thp-paywall-pwl10&quot;,&quot;chargebee_provider&quot;:true,&quot;paywall_entitlement&quot;:&quot;toms-hardware-premium&quot;,&quot;logo_email&quot;:&quot;https:\/\/cdn.mos.cms.futurecdn.net\/flexiimages\/tn8m46b2lp1747218165.png&quot;,&quot;id&quot;:&quot;tomshardware_en-gb&quot;,&quot;layerCustomMarkup&quot;:{&quot;main_layer_enabled&quot;:true,&quot;main_layer&quot;:&quot; .frame-27, .frame-27 * { box-sizing: border-box; } .content-frame-27{ float: left; margin-top: 20px; width: 100%; border-radius: 1rem; \/* coins arrondis *\/ box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); \/* ombre port\u00e9e *\/ padding: 2rem; z-index: 10; animation: floatIn 0.3s ease-out; background: white; border: 0px; --pay-secondary-color: #6b7280; } .kiosq-gradient-frame-27 { height: 100px; position: relative; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 85%); } .frame-27 { background: #ffffff; border-style: solid; border-color: #db3330; border-width: 4px 0px 4px 0px; padding: 20px; display: flex; flex-direction: column; gap: 20px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 100%; position: relative; } .you-ve-reached-your-free-article-access-limit-this-month { color: #1b1b1b; text-align: center; font: 300 20px \&quot;PalatinoLinotype-Regular\&quot;, sans-serif; position: relative; } .frame-10 { background: #f5f5f5; display: flex; flex-direction: row; gap: 20px; align-items: flex-start; justify-content: center; flex-shrink: 0; width: 100%; position: relative; } .frame-9 { background: #f5f5f5; border-style: solid; border-color: rgba(0, 0, 0, 0); border-width: 1px; display: flex; flex-direction: column; gap: 5px; align-items: center; justify-content: flex-start; align-self: stretch; flex-shrink: 0; width: 100%; position: relative; } .frame-4 { background: #f5f5f5; border-style: solid; border-color: transparent; border-width: 1px; display: flex; flex-direction: column; gap: 0px; align-items: center; justify-content: flex-start; align-self: stretch; flex-shrink: 0; position: relative; } .frame-3 { padding: 30px; display: flex; flex-direction: column; gap: 15px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 100%; position: relative; } .frame-7 { display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: flex-start; align-self: stretch; flex-shrink: 0; position: relative; color: var(--pay-secondary-color); &amp; ul { margin: 1em; padding:0; display: flex; flex-direction: column; align-items: center; font-family: sans-serif; list-style-type: disc; } } .subscribe-to-the-week-to-continue-reading { color: #1b1b1b; text-align: center; font: 300 26px \&quot;PalatinoLinotype-Regular\&quot;, sans-serif; position: relative; align-self: stretch; } .get-unlimited-website-access-exclusive-newsletters-plus-much-more-with-a-subscription-to-the-week-for-less-than-3-per-week { color: #1b1b1b; text-align: center; font: 300 18px\/21px \&quot;Arial-Regular\&quot;, sans-serif; position: relative; align-self: stretch; } .frame-17 { display: flex; flex-direction: column; gap: 5px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative; color: #ffffff; text-align: left; font: 700 14px \&quot;Arial-Bold\&quot;, sans-serif; text-transform: uppercase; } .frame-12 { background: #db3330; color: #fff; padding: 12px 32px; display: flex; flex-direction: row; gap: 12px; align-items: center; justify-content: center; width: fit-content; min-width: 210px; position: relative; cursor: pointer; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; text-align: center; text-decoration: none; transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); } .frame-12:hover { background: #b82b28; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transform: translateY(-2px); } html[data-locale=\&quot;US\&quot;] .flexi-page.progressive .frame-27 .frame-12 { background: #005ba5; } .cancel-or-pause-at-anytime { color: #1b1b1b; text-align: center; font: 400 12px\/18px \&quot;Arial-Regular\&quot;, sans-serif; position: relative; align-self: stretch; } .frame-32 { padding: 10px 0px 10px 0px; display: flex; flex-direction: column; gap: 20px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 100%; position: relative; } .already-subscribe-to-the-week { color: #1b1b1b; text-align: center; font: 400 24px \&quot;PalatinoLinotype-Regular\&quot;, sans-serif; posit. It outlines the main context and what has changed. The article adds concrete details that explain why it matters right now. It includes practical implications for people working in this area. Read the full story for nuance, examples, and source evidence.</p>
+  <p class="readmore">Read full story: <a class="link" href="https://www.tomshardware.com/video-games/pc-gaming/denuvo-has-been-bypassed-in-all-single-player-games-it-previously-protected-2k-games-and-denuvo-reportedly-retaliate-with-mandatory-14-day-online-checks" target="_blank" rel="noopener noreferrer">tomshardware.com</a></p>
+</section>
+
+<section class="spread stat">
+  <div class="num">10</div>
+  <div class="kicker">katherinemichel.github.io</div>
+  <h2>Southwest Headquarters Tour</h2>
+  <div class="meta">by KatiMichel <span class="applies">Directly applies to you</span></div>
+  <p class="summary">I flew Southwest to my first tech conference in August of 2017 and quickly learned how beneficial conferences would be to my career. In the early days, I had a shoestring budget, and would often apply for financial aid. The combination of Southwest’s Wanna Get Away tickets and flexible travel credit policy enabled me to attend many conferences. A few weeks ago, I was offered the chance to tour Southwest Headquarters along with other fans. I knew it would be a once-in-a-lifetime experience!</p>
+  <p class="readmore">Read full story: <a class="link" href="https://katherinemichel.github.io/blog/travel/southwest-headquarters-tour-2026.html" target="_blank" rel="noopener noreferrer">katherinemichel.github.io</a></p>
+</section>
+</body>
+</html>
